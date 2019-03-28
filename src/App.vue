@@ -1,7 +1,8 @@
 <template>
-    <v-app dark>
-        <route-view/>
-        <v-footer app>&copy; {{ new Date().getFullYear() }}</v-footer>
+    <v-app>
+      <!-- <img src="./assets/logo.png"> -->
+      <router-view></router-view>
+      <v-footer app>&copy; {{ new Date().getFullYear() }}</v-footer>
     </v-app>
 </template>
 
